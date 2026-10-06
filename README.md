@@ -33,13 +33,16 @@
 ## 📸 Preview Tampilan
 
 ### 1. Halaman Beranda (`index.html`)
-![Preview Beranda](https://github.com/user-attachments/assets/4d6b8643-f840-4ccb-b18f-2d8c86c70f9d)
+<img width="1918" height="960" alt="image" src="https://github.com/user-attachments/assets/807bb8cf-1b7b-497e-af85-40c9c49cb714" />
+
 
 ### 2. Halaman Masuk (`login.html`)
-![Preview Login](https://github.com/user-attachments/assets/729a9774-2339-427f-b247-e36fd261c7ff)
+<img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/a7df2e4c-bb32-4c6f-a333-1ed40a4d4dc7" />
+
 
 ### 3. Halaman Daftar (`register.html`)
-![Preview Register](https://github.com/user-attachments/assets/50f646e3-1daa-4716-b579-bc8d792042c9)
+<img width="1915" height="965" alt="image" src="https://github.com/user-attachments/assets/213f2cac-174f-453a-9114-df3000f326e9" />
+
 
 ---
 
