@@ -28,6 +28,7 @@
 2. **`login.html`** - Halaman autentikasi/masuk untuk akun mahasiswa.
 3. **`register.html`** - Halaman pendaftaran akun mahasiswa baru.
 4. **`article-detail.html`** - Halaman detail artikel (isi tulisan, profil penulis, komentar, artikel terkait).
+5. **`settings.html`** - Halaman mengelola preferensi akun, privasi, serta kustomisasi tampilan aplikasi (Opsi Mode Gelap/Terang, Ubah password).
 
 ---
 
@@ -50,6 +51,9 @@
 ### 5. Styling Halaman Daftar (Mobile)
 <img width="688" height="922" alt="WhatsApp Image 2026-10-10 at 22 33 04 (1)" src="https://github.com/user-attachments/assets/f6c3b99e-301f-4e83-ae07-56bc2e57d6dc" />
 <img width="687" height="932" alt="WhatsApp Image 2026-10-10 at 22 33 04 (2)" src="https://github.com/user-attachments/assets/b5f673fe-b21a-4b33-8b39-d11f2e596b55" />
+
+### 6. Halaman Settings
+<img width="458" height="713" alt="image" src="https://github.com/user-attachments/assets/80f02ded-6533-45ea-b143-123bb4aff9ba" />
 
 
 ---
