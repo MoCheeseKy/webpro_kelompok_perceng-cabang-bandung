@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - TelU Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="settings-page">
+
+  <header>
+    <h1>TelU Hub</h1>
+    <p>Tulisan, diskusi, dan rekomendasi tempat untuk mahasiswa Telkom University</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tempat.html">Tempat</a></li>
+        <li><a href="komunitas.html">Komunitas</a></li>
+        <li><a href="form-tempat.html">Tambah Tempat</a></li>
+        <li><a href="login.html">Masuk</a></li>
+        <li><a href="register.html">Daftar</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Settings</h2>
+    <p class="subtitle">Pengaturan akun dan preferensi aplikasi</p>
+
+    <form>
+      <fieldset>
+        <legend>Keamanan Akun</legend>
+
+        <p>
+          <label for="current-password">Password Saat Ini</label>
+          <input type="password" id="current-password" name="current-password" placeholder="********" required>
+        </p>
+
+        <p>
+          <label for="new-password">Password Baru</label>
+          <input type="password" id="new-password" name="new-password" placeholder="********" required>
+        </p>
+
+        <button type="submit">Simpan Perubahan</button>
+      </fieldset>
+
+      <fieldset class="preference-section">
+        <legend>Preferensi Tampilan & Notifikasi</legend>
+
+        <p>
+          <input type="checkbox" id="email-notif" checked>
+          <label for="email-notif">Kirim notifikasi artikel baru via Email</label>
+        </p>
+
+        <p class="theme-group">
+          <label for="theme">Tema Tampilan</label>
+          <select id="theme" name="theme">
+            <option value="light">Terang (Default)</option>
+            <option value="dark">Gelap</option>
+            <option value="system">Ikuti Sistem</option>
+          </select>
+        </p>
+      </fieldset>
+    
+      <fieldset class="section-spacing">
+        <legend>Bantuan & Tentang</legend>
+
+        <div class="help-links">
+          <p><a href="faq.html">Pusat Bantuan (FAQ) - Solusi masalah & panduan</a></p>
+          <p><a href="support.html">Hubungi Kami (Support) - Form bantuan pelanggan</a></p>
+          <p><a href="about.html">Tentang Aplikasi (v1.0.0)</a></p>
+          <p><a href="privacy.html">Kebijakan Privasi (Privacy Policy)</a></p>
+          <p><a href="terms.html">Syarat & Ketentuan (Terms of Service)</a></p>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Web Article. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
