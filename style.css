@@ -452,6 +452,76 @@ form {
     }
   }
 
+.register {
+  main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+    h2 {
+      margin: 0 0 8px;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+
+    > p {
+      text-align: center;
+      color: var(--teks-redup);
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin: 24px 0;
+      background: transparent;
+
+      .kartu {
+        display: flex;
+        background: var(--kartu);
+        border-radius: var(--radius);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+        fieldset {
+          flex: 1;
+          min-width: 0;
+
+          .bantuan {
+            display: block;
+            margin-top: 4px;
+            font-size: 0.85rem;
+            color: var(--teks-redup);
+          }
+
+          p:has(> input[type="checkbox"]) {
+            margin-bottom: 4px;
+          }
+        }
+      }
+
+      > button {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: 100%;
+        max-width: 360px;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        background-color: var(--merah);
+        color: #fff;
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--merah-gelap);
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 600px) {
   header {
@@ -501,6 +571,64 @@ form {
       flex-direction: column;
       align-items: flex-start;
       gap: 8px;
+    }
+  }
+
+  .register main {
+    padding: 24px 14px;
+
+    form {
+      grid-template-columns: 1fr;
+      gap: 16px;
+
+      .kartu fieldset {
+        padding: 18px;
+      }
+    }
+  }
+}
+
+.settings-page main {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  & h2 {
+    margin: 0 0 8px;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  & .subtitle {
+    text-align: center;
+    color: var(--teks-redup);
+    margin-bottom: 24px;
+  }
+
+  & form {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+    & .preference-section {
+      margin-top: 20px;
+    }
+
+    /* Perbaikan khusus link bantuan */
+    & .help-links p a {
+      color: #0066cc;
+
+      &:hover {
+        color: #004499;
+      }
+    }
+
+    & .theme-group {
+      margin-top: 16px;
+    }
+
+    & button {
+      padding: 12px;
+      color: #fff;
     }
   }
 }

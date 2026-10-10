@@ -44,6 +44,13 @@
 ### 3. Halaman Daftar (`register.html`)
 <img width="1915" height="965" alt="image" src="https://github.com/user-attachments/assets/213f2cac-174f-453a-9114-df3000f326e9" />
 
+### 4. Styling Halaman Daftar (Desktop)
+<img width="1600" height="896" alt="WhatsApp Image 2026-10-10 at 22 33 04" src="https://github.com/user-attachments/assets/b4b0dc9f-aae3-4a8b-bb7f-c946dc04b5cd" />
+
+### 5. Styling Halaman Daftar (Mobile)
+<img width="688" height="922" alt="WhatsApp Image 2026-10-10 at 22 33 04 (1)" src="https://github.com/user-attachments/assets/f6c3b99e-301f-4e83-ae07-56bc2e57d6dc" />
+<img width="687" height="932" alt="WhatsApp Image 2026-10-10 at 22 33 04 (2)" src="https://github.com/user-attachments/assets/b5f673fe-b21a-4b33-8b39-d11f2e596b55" />
+
 
 ---
 

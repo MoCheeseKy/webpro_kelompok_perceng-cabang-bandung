@@ -27,53 +27,63 @@
     <h2>Daftar Akun</h2>
     <p>Gunakan email kampus agar akunmu terverifikasi sebagai mahasiswa.</p>
 
-    <form action="#" method="post">
-      <fieldset>
-        <legend>Data Mahasiswa</legend>
-        <p>
-          <label for="nama">Nama lengkap</label>
-          <input type="text" id="nama" name="nama" required>
-        </p>
-        <p>
-          <label for="nim">NIM</label>
-          <input type="text" id="nim" name="nim" inputmode="numeric" required>
-        </p>
-        <p>
-          <label for="prodi">Program studi</label>
-          <select id="prodi" name="prodi" required>
-            <option value="">Pilih program studi</option>
-            <option value="rpl">S1 Rekayasa Perangkat Lunak</option>
-            <option value="if">S1 Informatika</option>
-            <option value="si">S1 Sistem Informasi</option>
-            <option value="lainnya">Lainnya</option>
-          </select>
-        </p>
-        <p>
-          <label for="angkatan">Angkatan</label>
-          <input type="number" id="angkatan" name="angkatan" min="2015" max="2026">
-        </p>
-      </fieldset>
+      <form action="#" method="post">
+      <div class="kartu">
+        <fieldset>
+          <legend>Data Mahasiswa</legend>
+          <p>
+            <label for="nama">Nama lengkap</label>
+            <input type="text" id="nama" name="nama" required>
+          </p>
+          <p>
+            <label for="nim">NIM</label>
+            <input type="text" id="nim" name="nim" inputmode="numeric" required>
+          </p>
+          <p>
+            <label for="prodi">Program studi</label>
+            <select id="prodi" name="prodi" required>
+              <option value="">Pilih program studi</option>
+              <option value="rpl">S1 Rekayasa Perangkat Lunak</option>
+              <option value="if">S1 Informatika</option>
+              <option value="si">S1 Sistem Informasi</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+          </p>
+          <p>
+            <label for="angkatan">Angkatan</label>
+            <input type="number" id="angkatan" name="angkatan" min="2015" max="2026">
+          </p>
+        </fieldset>
+      </div>
 
-      <fieldset>
-        <legend>Data Akun</legend>
-        <p>
-          <label for="email-daftar">Email kampus</label>
-          <input type="email" id="email-daftar" name="email" required>
-        </p>
-        <p>
-          <label for="password-daftar">Kata sandi</label>
-          <input type="password" id="password-daftar" name="password" minlength="8" required>
-        </p>
-        <p>
-          <label for="konfirmasi">Konfirmasi kata sandi</label>
-          <input type="password" id="konfirmasi" name="konfirmasi" minlength="8" required>
-        </p>
-        <p>
-          <input type="checkbox" id="setuju" name="setuju" required>
-          <label for="setuju">Saya setuju dengan aturan komunitas</label>
-        </p>
-        <button type="submit">Daftar</button>
-      </fieldset>
+      <div class="kartu">
+        <fieldset>
+          <legend>Data Akun</legend>
+          <p>
+            <label for="email-daftar">Email kampus</label>
+            <input type="email" id="email-daftar" name="email" required>
+          </p>
+          <p>
+            <label for="password-daftar">Kata sandi</label>
+            <input type="password" id="password-daftar" name="password" minlength="8" required>
+            <span class="bantuan">Minimal 8 karakter</span>
+          </p>
+          <p>
+            <label for="konfirmasi">Konfirmasi kata sandi</label>
+            <input type="password" id="konfirmasi" name="konfirmasi" minlength="8" required>
+          </p>
+          <p>
+            <input type="checkbox" id="data-benar" name="data-benar" required>
+            <label for="data-benar">Saya menyatakan data yang diisi sudah benar</label>
+          </p>
+          <p>
+            <input type="checkbox" id="setuju" name="setuju" required>
+            <label for="setuju">Saya setuju dengan aturan komunitas</label>
+          </p>
+        </fieldset>
+      </div>
+
+      <button type="submit">Daftar</button>
     </form>
 
     <p>Sudah punya akun? <a href="login.html">Masuk di sini</a></p>
