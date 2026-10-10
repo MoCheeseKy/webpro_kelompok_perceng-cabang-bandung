@@ -27,6 +27,7 @@
 1. **`index.html`** - Halaman utama/beranda (rekomendasi tempat populer, diskusi terbaru, tulisan pilihan).
 2. **`login.html`** - Halaman autentikasi/masuk untuk akun mahasiswa.
 3. **`register.html`** - Halaman pendaftaran akun mahasiswa baru.
+4. **`article-detail.html`** - Halaman detail artikel (isi tulisan, profil penulis, komentar, artikel terkait).
 
 ---
 
