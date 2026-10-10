@@ -56,9 +56,6 @@
 ### 8. Halaman Detail Article
 <img width="1912" height="962" alt="image" src="https://github.com/user-attachments/assets/3de0211f-54e3-4f96-8da3-4ac846a05c16" />
 
-### 9. Halaman settings
-<img width="1910" height="961" alt="image" src="https://github.com/user-attachments/assets/e2ffec70-cdd9-497d-96a4-4abdea71513b" />
-
 
 
 ---
