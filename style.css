@@ -269,6 +269,12 @@ form {
           strong {
             color: var(--teks);
           }
+        }
+      }
+    }
+  }
+}
+
 .register {
   main {
     width: 100%;
@@ -362,6 +368,7 @@ form {
 
   .article-detail main {
     padding: 20px 14px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -375,6 +382,51 @@ form {
       .kartu fieldset {
         padding: 18px;
       }
+    }
+  }
+}
+
+.settings-page main {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  & h2 {
+    margin: 0 0 8px;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  & .subtitle {
+    text-align: center;
+    color: var(--teks-redup);
+    margin-bottom: 24px;
+  }
+
+  & form {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+    & .preference-section {
+      margin-top: 20px;
+    }
+
+    /* Perbaikan khusus link bantuan */
+    & .help-links p a {
+      color: #0066cc;
+
+      &:hover {
+        color: #004499;
+      }
+    }
+
+    & .theme-group {
+      margin-top: 16px;
+    }
+
+    & button {
+      padding: 12px;
+      color: #fff;
     }
   }
 }
