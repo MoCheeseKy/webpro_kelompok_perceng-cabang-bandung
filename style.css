@@ -162,15 +162,20 @@ form {
 
     button {
       width: 100%;
-      padding: 0;
+      padding: 12px;
       border: none;
       border-radius: 6px;
       background-color: #c8102e;
+      color: #fff;
       font-size: 1rem;
       cursor: pointer;
 
       &:hover {
         background-color: #9b0c23;
+      }
+
+      &:has(a) {
+        padding: 0;
       }
 
       a {
@@ -212,6 +217,64 @@ form {
   }
 }
 
+.article-detail {
+  main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+  .meta-artikel {
+    color: var(--teks-redup);
+    font-size: 0.95rem;
+    margin-top: -8px;
+    margin-bottom: 24px;
+  }
+
+  article {
+    margin-bottom: 32px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  section {
+    margin-top: 32px;
+  }
+
+  .daftar-komentar {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+
+    li {
+      background: var(--kartu);
+      border: 1px solid var(--garis);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-bottom: 12px;
+
+      p {
+        margin: 0;
+
+        &:first-child {
+          margin-bottom: 6px;
+          font-size: 0.9rem;
+          color: var(--teks-redup);
+
+          strong {
+            color: var(--teks);
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 600px) {
   header {
     h1 {
@@ -230,5 +293,9 @@ form {
     form fieldset {
       padding: 18px;
     }
+  }
+
+  .article-detail main {
+    padding: 20px 14px;
   }
 }
