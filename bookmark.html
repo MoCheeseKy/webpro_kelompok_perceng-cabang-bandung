@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark Saya - TelU Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bookmark">
+  <header>
+    <h1>TelU Hub</h1>
+    <p>Tulisan, diskusi, dan rekomendasi tempat untuk mahasiswa Telkom University</p>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tempat.html">Tempat</a></li>
+        <li><a href="komunitas.html">Komunitas</a></li>
+        <li><a href="form-tempat.html">Tambah Tempat</a></li>
+        <li><a href="bookmark.html">Bookmark</a></li>
+        <li><a href="login.html">Masuk</a></li>
+        <li><a href="register.html">Daftar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bookmark Saya</h2>
+    <p class="subtitle">Kumpulan artikel dan tempat yang telah kamu simpan untuk dibaca atau dikunjungi nanti.</p>
+
+    <div class="bookmark-filter">
+      <span class="filter-label">Filter:</span>
+      <ul>
+        <li><a href="#" class="filter-aktif">Semua</a></li>
+        <li><a href="#">Artikel</a></li>
+        <li><a href="#">Tempat</a></li>
+        <li><a href="#">Diskusi</a></li>
+      </ul>
+    </div>
+
+    <section aria-labelledby="bookmark-artikel">
+      <h3 id="bookmark-artikel">Artikel Tersimpan</h3>
+      <div class="bookmark-list">
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="article-detail.html">Pengalaman Magang Pertama sebagai Frontend Developer</a></h4>
+            <p class="bookmark-meta">Ditulis oleh <strong>Zulfan Falah Permana</strong> &bull; 10 Oktober 2026 &bull; 5 menit baca</p>
+            <p>Cerita singkat tentang persiapan, tantangan, dan hal yang dipelajari selama magang di perusahaan startup.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag">Artikel</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="#">Tips Mengatur Waktu Kuliah dan Proyek</a></h4>
+            <p class="bookmark-meta">Ditulis oleh <strong>Rifky Muhammad Prayudhi</strong> &bull; 8 Oktober 2026 &bull; 4 menit baca</p>
+            <p>Panduan praktis bagi mahasiswa yang ingin tetap produktif antara kuliah, tugas, dan proyek organisasi.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag">Artikel</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="#">Rekomendasi Kafe dan Tempat Nugas Sekitar Bojongsoang</a></h4>
+            <p class="bookmark-meta">Ditulis oleh <strong>Muhamad Naufal</strong> &bull; 5 Oktober 2026 &bull; 6 menit baca</p>
+            <p>Daftar kafe cozy yang cocok untuk mengerjakan tugas dan diskusi kelompok, lengkap dengan kisaran harga.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag">Artikel</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="bookmark-tempat">
+      <h3 id="bookmark-tempat">Tempat Tersimpan</h3>
+      <div class="bookmark-list">
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="detail-tempat.html">Warung Makan Bu Ani</a></h4>
+            <p class="bookmark-meta">Kategori: <strong>Makanan</strong> &bull; Kisaran harga Rp10.000 - Rp18.000</p>
+            <p>Warung sederhana dengan menu rumahan yang enak dan harga ramah di kantong mahasiswa. Rating 4,5 dari 5.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag tag-tempat">Tempat</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="detail-tempat.html">Kopi Sudut Bojongsoang</a></h4>
+            <p class="bookmark-meta">Kategori: <strong>Kafe &amp; Tempat Nugas</strong> &bull; Kisaran harga Rp15.000 - Rp30.000</p>
+            <p>Kafe kecil yang nyaman dengan Wi-Fi kencang, cocok untuk nugas sampai larut malam. Rating 4,2 dari 5.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag tag-tempat">Tempat</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="bookmark-diskusi">
+      <h3 id="bookmark-diskusi">Diskusi Tersimpan</h3>
+      <div class="bookmark-list">
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="komunitas.html">Tips lolos seleksi magang semester ini?</a></h4>
+            <p class="bookmark-meta">Diposting di <strong>Komunitas Karier</strong> &bull; 12 balasan &bull; 3 hari yang lalu</p>
+            <p>Diskusi seputar strategi dan pengalaman mengikuti seleksi magang di berbagai perusahaan teknologi.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag tag-diskusi">Diskusi</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+
+        <article class="bookmark-card">
+          <div class="bookmark-info">
+            <h4><a href="komunitas.html">Rekomendasi referensi belajar basis data</a></h4>
+            <p class="bookmark-meta">Diposting di <strong>Komunitas RPL</strong> &bull; 8 balasan &bull; 5 hari yang lalu</p>
+            <p>Kumpulan sumber belajar gratis dan berbayar untuk mendalami materi basis data relasional dan NoSQL.</p>
+          </div>
+          <div class="bookmark-actions">
+            <span class="bookmark-tag tag-diskusi">Diskusi</span>
+            <a href="#" class="btn-hapus">Hapus Bookmark</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="bookmark-empty" aria-labelledby="bookmark-kosong">
+      <h3 id="bookmark-kosong">Belum Ada Bookmark?</h3>
+      <p>Kamu bisa menyimpan artikel, tempat, atau diskusi yang menarik dengan menekan tombol bookmark di setiap konten.</p>
+      <p><a href="index.html">Jelajahi Beranda</a> untuk menemukan konten menarik.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TelU Hub - Kelompok Ayam Asin Cihapit, SE-48-01</p>
+    <p>Data pada halaman ini hanya contoh (dummy).</p>
+  </footer>
+</body>
+</html>
