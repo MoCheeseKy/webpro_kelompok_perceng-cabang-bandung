@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beranda - TelU Hub</title>
   <link rel="stylesheet" href="../styles/style.css">
-  <link rel="stylesheet" href="../styles/beranda.css">
 </head>
+
 <body class="homepage">
   <header class="site-header">
     <div class="container header-inner">
@@ -29,7 +30,8 @@
     <section class="hero" aria-labelledby="judul-hero">
       <div class="container">
         <h1 id="judul-hero">Tulisan, diskusi, dan rekomendasi tempat di sekitar kampus</h1>
-        <p class="hero-text">Temukan tempat makan dan wisata sekitar kampus, ikut diskusi, dan baca tulisan sesama mahasiswa.</p>
+        <p class="hero-text">Temukan tempat makan dan wisata sekitar kampus, ikut diskusi, dan baca tulisan sesama
+          mahasiswa.</p>
         <div class="hero-actions">
           <a class="btn-solid" href="tempat.html">Jelajahi Tempat</a>
           <a class="btn-outline" href="komunitas.html">Gabung Komunitas</a>
@@ -45,21 +47,59 @@
         </div>
         <div class="grid grid-2">
           <article class="card place-card">
-            <img src="images/warung-makan.svg" alt="Ilustrasi warung makan sederhana dengan meja dan kursi kayu" width="200" height="120">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&auto=format&fit=crop&q=80"
+                alt="Ayam Dikichi Bojongsoang" loading="lazy">
+              <span class="tag tag-tempat card-badge">Food and Beverage</span>
+            </div>
             <div class="card-body">
-              <span class="tag">Makanan</span>
-              <h3>Warung Makan Bu Ani</h3>
-              <p class="meta">Rp10.000 - Rp18.000 &middot; Rating 4,5 dari 5</p>
-              <a class="link-more" href="detail-tempat.html">Lihat detail<span class="visually-hidden"> Warung Makan Bu Ani</span> &rarr;</a>
+              <div class="place-header">
+                <h3><a href="detail-tempat.html">Ayam Dikichi</a></h3>
+                <span class="place-price">Rp 10.000 - Rp 50.000</span>
+              </div>
+              <p class="place-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Sukapura, Telkom University, Indonesia
+              </p>
+              <p class="card-desc">Ayam goreng enak dan murah deket Telkom University</p>
+              <div class="card-footer">
+                <p class="meta">Ditambahkan oleh <strong>Zulfan Falah Permana</strong> &bull; 10 Oktober 2026</p>
+                <a class="link-more" href="detail-tempat.html">Lihat detail<span class="visually-hidden"> Ayam
+                    Dikichi</span> &rarr;</a>
+              </div>
             </div>
           </article>
+
           <article class="card place-card">
-            <img src="images/kafe.svg" alt="Ilustrasi kafe kecil dengan secangkir kopi di atas meja" width="200" height="120">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&auto=format&fit=crop&q=80"
+                alt="Kopi Sudut Bojongsoang" loading="lazy">
+              <span class="tag tag-tempat card-badge">Kafe &amp; Tempat Nugas</span>
+            </div>
             <div class="card-body">
-              <span class="tag">Kafe &amp; tempat nugas</span>
-              <h3>Kopi Sudut Bojongsoang</h3>
-              <p class="meta">Rp15.000 - Rp30.000 &middot; Rating 4,2 dari 5</p>
-              <a class="link-more" href="detail-tempat.html">Lihat detail<span class="visually-hidden"> Kopi Sudut Bojongsoang</span> &rarr;</a>
+              <div class="place-header">
+                <h3><a href="detail-tempat.html">Kopi Sudut Bojongsoang</a></h3>
+                <span class="place-price">Rp 15.000 - Rp 30.000</span>
+              </div>
+              <p class="place-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Bojongsoang, Bandung, Indonesia
+              </p>
+              <p class="card-desc">Kafe tenang dengan fasilitas colokan melimpah dan Wi-Fi cepat, cocok untuk belajar
+                sampai larut.</p>
+              <div class="card-footer">
+                <p class="meta">Ditambahkan oleh <strong>Muhamad Naufal</strong> &bull; 8 Oktober 2026</p>
+                <a class="link-more" href="detail-tempat.html">Lihat detail<span class="visually-hidden"> Kopi Sudut
+                    Bojongsoang</span> &rarr;</a>
+              </div>
             </div>
           </article>
         </div>
@@ -71,34 +111,72 @@
           <a href="article-detail.html">Lihat semua tulisan</a>
         </div>
 
-        <article class="card featured">
-          <div class="featured-body">
-            <span class="tag tag-accent">Karier</span>
-            <h3><a href="article-detail.html?id=magang-frontend">Pengalaman Magang Pertama sebagai Frontend Developer</a></h3>
-            <p>Cerita singkat tentang persiapan, tantangan, dan hal yang dipelajari selama magang.</p>
-            <p class="meta">Rifky Muhammad Prayudhi &middot; 5 menit baca</p>
-            <a class="btn-solid" href="article-detail.html?id=magang-frontend">Baca selengkapnya</a>
-          </div>
-        </article>
 
         <div class="grid grid-3">
           <article class="card article-card">
-            <span class="tag">Kuliner</span>
-            <h3><a href=" ">5 Tempat Makan Hemat di Sekitar Bojongsoang</a></h3>
-            <p>Daftar warung dan kedai yang ramah kantong mahasiswa, lengkap dengan kisaran harga.</p>
-            <p class="meta">Dummy Penulis &middot; 4 menit baca</p>
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80"
+                alt="Ilustrasi Frontend Developer" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag">karier</span>
+                <span class="tag">frontend</span>
+                <span class="tag">tips</span>
+              </div>
+              <h3><a href="article-detail.html?id=magang-frontend">Pengalaman Magang Pertama sebagai Frontend
+                  Developer</a></h3>
+              <p class="card-desc">Cerita singkat tentang persiapan wawancara, tantangan teknis, dan hal yang dipelajari
+                selama magang di startup.</p>
+              <div class="card-footer">
+                <p class="meta">Ditulis oleh <strong>Zulfan Falah Permana</strong> &bull; 10 Oktober 2026 &bull; 5 min
+                  baca</p>
+                <a class="link-more" href="article-detail.html?id=magang-frontend">Baca &rarr;</a>
+              </div>
+            </div>
           </article>
+
           <article class="card article-card">
-            <span class="tag">Akademik</span>
-            <h3><a href=" ">Cara Belajar Basis Data Tanpa Pusing</a></h3>
-            <p>Mulai dari memahami relasi tabel sampai latihan query yang bisa dicoba sendiri.</p>
-            <p class="meta">Dummy Penulis &middot; 6 menit baca</p>
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&auto=format&fit=crop&q=80"
+                alt="Belajar Basis Data" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag">akademik</span>
+                <span class="tag">database</span>
+                <span class="tag">tutorial</span>
+              </div>
+              <h3><a href="article-detail.html">Cara Belajar Basis Data Tanpa Pusing</a></h3>
+              <p class="card-desc">Mulai dari memahami relasi antartabel sampai latihan query SQL dan NoSQL yang bisa
+                dipraktikkan langsung.</p>
+              <div class="card-footer">
+                <p class="meta">Ditulis oleh <strong>Muhamad Naufal</strong> &bull; 8 Oktober 2026 &bull; 6 min baca</p>
+                <a class="link-more" href="article-detail.html">Baca &rarr;</a>
+              </div>
+            </div>
           </article>
+
           <article class="card article-card">
-            <span class="tag">Tips</span>
-            <h3><a href=" ">Tempat Nugas Nyaman yang Buka Sampai Malam</a></h3>
-            <p>Rekomendasi tempat dengan colokan, Wi-Fi, dan suasana tenang untuk mengerjakan tugas.</p>
-            <p class="meta">Dummy Penulis &middot; 3 menit baca</p>
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80"
+                alt="Manajemen Waktu Kuliah" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag">kuliah</span>
+                <span class="tag">produktivitas</span>
+                <span class="tag">tips</span>
+              </div>
+              <h3><a href="article-detail.html">Tips Mengatur Waktu Kuliah dan Proyek Organisasi</a></h3>
+              <p class="card-desc">Panduan praktis bagi mahasiswa yang ingin tetap aktif berorganisasi tanpa
+                mengorbankan indeks prestasi akademik.</p>
+              <div class="card-footer">
+                <p class="meta">Ditulis oleh <strong>Rifky Muhammad Prayudhi</strong> &bull; 6 Oktober 2026 &bull; 4 min
+                  baca</p>
+                <a class="link-more" href="article-detail.html">Baca &rarr;</a>
+              </div>
+            </div>
           </article>
         </div>
       </section>
@@ -108,11 +186,66 @@
           <h2 id="diskusi-terbaru">Diskusi Terbaru</h2>
           <a href="komunitas.html">Buka komunitas</a>
         </div>
-        <ul class="discussion-list">
-          <li><a href="komunitas.html">Tips lolos seleksi magang semester ini?</a><span class="tag">Karier</span></li>
-          <li><a href="komunitas.html">Ada yang tahu tempat nugas buka sampai malam?</a><span class="tag">Kuliner &amp; Nongkrong</span></li>
-          <li><a href="komunitas.html">Rekomendasi referensi belajar basis data</a><span class="tag">RPL</span></li>
-        </ul>
+        <div class="grid grid-3">
+          <article class="card discussion-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80"
+                alt="Diskusi Komunitas Kampus" loading="lazy">
+              <span class="tag tag-diskusi card-badge">Telkom University Politics Community</span>
+            </div>
+            <div class="card-body">
+              <div class="community-meta">
+                <span class="community-creator">Komunitas oleh <strong>Zulfan Falah Permana</strong></span>
+              </div>
+              <h3><a href="komunitas.html">Cara Memberantas Buzzer Telkom University</a></h3>
+              <p class="card-desc">Cara efektif untuk mengatasi masalah buzzer di lingkungan Telkom University</p>
+              <div class="card-footer">
+                <p class="meta">Dimulai oleh <strong>Zulfan Falah Permana</strong> &bull; 10 Oktober 2026</p>
+                <a class="link-more" href="komunitas.html">Ikuti Diskusi &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card discussion-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&auto=format&fit=crop&q=80"
+                alt="Komunitas Karier & Magang" loading="lazy">
+              <span class="tag tag-diskusi card-badge">Komunitas Karier &amp; Magang</span>
+            </div>
+            <div class="card-body">
+              <div class="community-meta">
+                <span class="community-creator">Komunitas oleh <strong>Rifky Muhammad Prayudhi</strong></span>
+              </div>
+              <h3><a href="komunitas.html">Tips Lolos Seleksi Magang Semester Ini?</a></h3>
+              <p class="card-desc">Berbagi strategi lolos interview teknis, tips portfolio GitHub, dan review CV untuk
+                posisi magang software engineer.</p>
+              <div class="card-footer">
+                <p class="meta">Dimulai oleh <strong>Rifky Muhammad Prayudhi</strong> &bull; 12 Oktober 2026</p>
+                <a class="link-more" href="komunitas.html">Ikuti Diskusi &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card discussion-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&auto=format&fit=crop&q=80"
+                alt="Komunitas Rekayasa Perangkat Lunak" loading="lazy">
+              <span class="tag tag-diskusi card-badge">Komunitas Rekayasa Perangkat Lunak</span>
+            </div>
+            <div class="card-body">
+              <div class="community-meta">
+                <span class="community-creator">Komunitas oleh <strong>Muhamad Naufal</strong></span>
+              </div>
+              <h3><a href="komunitas.html">Rekomendasi Referensi Belajar Basis Data Relasional &amp; NoSQL</a></h3>
+              <p class="card-desc">Kumpulan buku, video panduan, dan repository query untuk memperdalam konsep indeks,
+                normalisasi, dan transaksi data.</p>
+              <div class="card-footer">
+                <p class="meta">Dimulai oleh <strong>Muhamad Naufal</strong> &bull; 11 Oktober 2026</p>
+                <a class="link-more" href="komunitas.html">Ikuti Diskusi &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
     </div>
   </main>
@@ -124,4 +257,5 @@
     </div>
   </footer>
 </body>
+
 </html>

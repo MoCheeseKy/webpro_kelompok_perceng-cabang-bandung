@@ -1,36 +1,283 @@
 {
-        "saved-articles" : [
-            {
-                "images": "https://example.com/image1.jpg", 
-                "title": "Tips Hidup Sehat Mahasiswa Telkom University",
-                "author": "Rifky Muhammad Prayudhi",
-                "date": "13 Oktober 2026",
-                "description": "Sebagai mahasiswa, menjaga kesehatan sangat penting. Artikel ini memberikan tips hidup sehat bagi mahasiswa Telkom University.",
-                "tags": ["lifestyle", "health", "student-life"],
-                "reading-time": "10 min"
-            }
-        ],
-        "saved-places": [
-            {
-                "images": "https://example.com/image1.jpg", 
-                "title": "Ayam Dikichi",
-                "author": "Zulfan Falah Permana",
-                "date": "10 Oktober 2026",
-                "location": "Sukapura, Telkom University, Indonesia",
-                "description": "Ayam goreng enak dan murah deket Telkom University",
-                "category": "Food and Beverage",
-                "price-range": "Rp 10.000 - Rp 50.000"
-            }
-        ],
-        "saved-discussions": [
-            {
-                "images": "https://example.com/image1.jpg", 
-                "title":"Cara Memberantas Buzzer Telkom University",
-                "author":"Zulfan Falah Permana",
-                "date":"10 Oktober 2026",
-                "description":"Cara efektif untuk mengatasi masalah buzzer di lingkungan Telkom University",
-                "community-name" : "Telkom University Politics Community",
-                "comunity-author" : "Zulfan Falah Permana"
-            }
-        ]
+    "articles": [
+        {
+            "id": "1",
+            "images": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+            "title": "Tips Hidup Sehat Mahasiswa Telkom University",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "13 Oktober 2026",
+            "description": "Sebagai mahasiswa, menjaga kesehatan sangat penting. Artikel ini memberikan tips hidup sehat bagi mahasiswa Telkom University.",
+            "tags": [
+                "lifestyle",
+                "health",
+                "student-life"
+            ],
+            "reading-time": "10 min"
+        },
+        {
+            "id": "2",
+            "images": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+            "title": "Panduan Lengkap Lulus Tepat Waktu Tanpa Mengulang",
+            "author": "Alya Putri Maharani",
+            "date": "14 Oktober 2026",
+            "description": "Strategi mengatur SKS, memilih topik Tugas Akhir, dan manajemen waktu organisasi agar bisa wisuda tepat 3,5 atau 4 tahun.",
+            "tags": [
+                "academic",
+                "tips",
+                "student-life"
+            ],
+            "reading-time": "8 min"
+        },
+        {
+            "id": "3",
+            "images": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
+            "title": "Cara Mengatur Keuangan Anak Kos di Daerah Bojongsoang",
+            "author": "Dimas Pratama",
+            "date": "12 Oktober 2026",
+            "description": "Tips hemat bulanan untuk anak kos sekitar kampus agar tetap bisa makan bergizi tanpa harus makan mi instan di akhir bulan.",
+            "tags": [
+                "finance",
+                "lifestyle",
+                "anak-kos"
+            ],
+            "reading-time": "6 min"
+        }
+    ],
+    "places": [
+        {
+            "id": "1",
+            "images": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=800&q=80",
+            "title": "Ayam Dikichi",
+            "author": "Zulfan Falah Permana",
+            "date": "10 Oktober 2026",
+            "location": "Sukapura, Telkom University, Indonesia",
+            "description": "Ayam goreng enak dan murah deket Telkom University",
+            "category": "Food and Beverage",
+            "price-range": "Rp 10.000 - Rp 50.000"
+        },
+        {
+            "id": "2",
+            "images": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+            "title": "Kopi Senja Sukabirus",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "12 Oktober 2026",
+            "location": "Jl. Sukabirus, Dayeuhkolot, Bandung",
+            "description": "Coffee shop nyaman dengan Wi-Fi kencang dan banyak colokan, cocok buat nugas atau kerja kelompok sampai malam.",
+            "category": "Cafe & Coworking",
+            "price-range": "Rp 15.000 - Rp 35.000"
+        }
+    ],
+    "discussions": [
+        {
+            "id": "1",
+            "images": "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80",
+            "title": "Cara Memberantas Buzzer Telkom University",
+            "author": "Zulfan Falah Permana",
+            "date": "10 Oktober 2026",
+            "description": "Cara efektif untuk mengatasi masalah buzzer di lingkungan Telkom University",
+            "community-name": "Telkom University Politics Community",
+            "comunity-author": "Zulfan Falah Permana"
+        },
+        {
+            "id": "2",
+            "images": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80",
+            "title": "Solusi Mengatasi Kemacetan Jalan Bojongsoang Saat Jam Pergantian Kelas",
+            "author": "Dimas Pratama",
+            "date": "12 Oktober 2026",
+            "description": "Diskusi terbuka mengenai alternatif jalur dan jam berangkat terbaik agar tidak terjebak macet di sekitar gerbang kampus.",
+            "community-name": "Info Lalin & Sekitar Kampus",
+            "comunity-author": "Reza Rahadian"
+        },
+        {
+            "id": "3",
+            "images": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
+            "title": "Framework Frontend Terbaik untuk Tugas Besar Webpro Semester 5",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "14 Oktober 2026",
+            "description": "Bahas perbandingan penggunaan Vanilla JS, React, atau Vue untuk pengerjaan proyek kelompok Pemrograman Web.",
+            "community-name": "Web Developers Tel-U",
+            "comunity-author": "Budi Santoso"
+        }
+    ],
+    "saved-articles": [
+        {
+            "id": "1",
+            "images": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80",
+            "title": "Tips Hidup Sehat Mahasiswa Telkom University",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "13 Oktober 2026",
+            "description": "Sebagai mahasiswa, menjaga kesehatan sangat penting. Artikel ini memberikan tips hidup sehat bagi mahasiswa Telkom University.",
+            "tags": [
+                "lifestyle",
+                "health",
+                "student-life"
+            ],
+            "reading-time": "10 min"
+        },
+        {
+            "id": "2",
+            "images": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+            "title": "Belajar Fullstack Web Development dari Nol untuk Mahasiswa RPL",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "15 Oktober 2026",
+            "description": "Roadmap belajar pemrograman web mulai dari HTML, CSS, JavaScript, hingga integrasi REST API dan database.",
+            "tags": [
+                "technology",
+                "coding",
+                "web-dev"
+            ],
+            "reading-time": "15 min"
+        },
+        {
+            "id": "3",
+            "images": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+            "title": "Cara Mengatasi Burnout Saat Pekan Tubes dan UAS",
+            "author": "Siti Rahmawati",
+            "date": "10 Oktober 2026",
+            "description": "Tips menjaga kesehatan mental dan pola tidur ketika deadline Tugas Besar datang bersamaan.",
+            "tags": [
+                "mental-health",
+                "lifestyle",
+                "student-life"
+            ],
+            "reading-time": "5 min"
+        },
+        {
+            "id": "4",
+            "images": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+            "title": "Tips Menang Lomba IT dan Hackathon Tingkat Nasional",
+            "author": "Bagas Adi Putra",
+            "date": "08 Oktober 2026",
+            "description": "Pengalaman mengikuti kompetisi GEMASTIK dan lomba inovasi teknologi mulai dari pembentukan tim hingga pitching.",
+            "tags": [
+                "competition",
+                "hackathon",
+                "achievement"
+            ],
+            "reading-time": "9 min"
+        },
+        {
+            "id": "5",
+            "images": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+            "title": "5 Kebiasaan Pagi yang Meningkatkan Fokus Kuliah",
+            "author": "Nabila Azzahra",
+            "date": "07 Oktober 2026",
+            "description": "Rutinitas pagi sederhana sebelum berangkat ke kelas pagi di Gedung Kuliah Umum (GKU).",
+            "tags": [
+                "productivity",
+                "health",
+                "lifestyle"
+            ],
+            "reading-time": "6 min"
+        }
+    ],
+    "saved-places": [
+        {
+            "id": "1",
+            "images": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=800&q=80",
+            "title": "Ayam Dikichi",
+            "author": "Zulfan Falah Permana",
+            "date": "10 Oktober 2026",
+            "location": "Sukapura, Telkom University, Indonesia",
+            "description": "Ayam goreng enak dan murah deket Telkom University",
+            "category": "Food and Beverage",
+            "price-range": "Rp 10.000 - Rp 50.000"
+        },
+        {
+            "id": "2",
+            "images": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80",
+            "title": "Kopi Kulo Sukapura",
+            "author": "Dimas Pratama",
+            "date": "11 Oktober 2026",
+            "location": "Jl. Mengger Hilir, Sukapura, Bandung",
+            "description": "Tempat nongkrong santai dekat kampus dengan menu es kopi susu dan roti bakar yang ramah di kantong mahasiswa.",
+            "category": "Cafe & Coworking",
+            "price-range": "Rp 15.000 - Rp 30.000"
+        },
+        {
+            "id": "3",
+            "images": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+            "title": "Mie Gacoan Bojongsoang",
+            "author": "Alya Putri Maharani",
+            "date": "09 Oktober 2026",
+            "location": "Jl. Raya Bojongsoang, Kabupaten Bandung",
+            "description": "Tempat makan mi pedas dan dimsum favorit mahasiswa yang buka sampai larut malam.",
+            "category": "Food and Beverage",
+            "price-range": "Rp 10.000 - Rp 25.000"
+        },
+        {
+            "id": "4",
+            "images": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+            "title": "Co-Working Space Gedung TULT",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "14 Oktober 2026",
+            "location": "Telkom University Landmark Tower (TULT)",
+            "description": "Area belajar modern di gedung TULT dengan fasilitas meja diskusi yang luas dan suasana kondusif.",
+            "category": "Study Spot",
+            "price-range": "Gratis"
+        },
+        {
+            "id": "5",
+            "images": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+            "title": "Sate Taichan Goreng Sukabirus",
+            "author": "Fajar Nugraha",
+            "date": "12 Oktober 2026",
+            "location": "Jl. Sukabirus, Dayeuhkolot, Bandung",
+            "description": "Sate taichan daging ayam tebal dengan sambal ekstra pedas dan bumbu gurih.",
+            "category": "Food and Beverage",
+            "price-range": "Rp 18.000 - Rp 35.000"
+        }
+    ],
+    "saved-discussions": [
+        {
+            "id": "1",
+            "images": "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80",
+            "title": "Cara Memberantas Buzzer Telkom University",
+            "author": "Zulfan Falah Permana",
+            "date": "10 Oktober 2026",
+            "description": "Cara efektif untuk mengatasi masalah buzzer di lingkungan Telkom University",
+            "community-name": "Telkom University Politics Community",
+            "comunity-author": "Zulfan Falah Permana"
+        },
+        {
+            "id": "2",
+            "images": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
+            "title": "Info Rekrutmen Asisten Laboratorium Semester Depan",
+            "author": "Rifky Muhammad Prayudhi",
+            "date": "13 Oktober 2026",
+            "description": "Diskusi seputar syarat pendaftaran, tahapan seleksi tes tulis, microteaching, dan wawancara Aslab Fakultas Informatika.",
+            "community-name": "Pejuang Aslab FIF",
+            "comunity-author": "Rifky Muhammad Prayudhi"
+        },
+        {
+            "id": "3",
+            "images": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+            "title": "Rekomendasi Provider Internet yang Stabil di Daerah Sukapura",
+            "author": "Bagas Adi Putra",
+            "date": "11 Oktober 2026",
+            "description": "Tanya jawab seputar provider Wi-Fi dan kartu seluler yang sinyalnya paling kuat saat hujan deras di Sukapura.",
+            "community-name": "Forum Anak Kos Telkom",
+            "comunity-author": "Siti Aminah"
+        },
+        {
+            "id": "4",
+            "images": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+            "title": "Sharing Pengalaman Deploy Project Web ke Vercel dan Supabase",
+            "author": "Dimas Pratama",
+            "date": "14 Oktober 2026",
+            "description": "Membahas cara hosting gratis untuk kebutuhan demo Tugas Besar beserta konfigurasi environment variables.",
+            "community-name": "Web Developers Tel-U",
+            "comunity-author": "Budi Santoso"
+        },
+        {
+            "id": "5",
+            "images": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80",
+            "title": "Cari Teman Satu Tim untuk Lomba UI/UX dan Web Design Bulan Depan",
+            "author": "Nabila Azzahra",
+            "date": "15 Oktober 2026",
+            "description": "Open recruitment anggota tim untuk posisi Hipster (UI/UX Designer) dan Hacker (Frontend Developer).",
+            "community-name": "Info Lomba & Kompetisi Tel-U",
+            "comunity-author": "Andi Wijaya"
+        }
+    ]
 }
