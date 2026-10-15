@@ -44,7 +44,8 @@
 ## 📸 Preview Tampilan
 
 ### 1. Halaman Beranda (`index.html`)
-<img width="1916" height="963" alt="Halaman Beranda Desktop" src="https://github.com/user-attachments/assets/d14e9cf9-e50d-4a95-8f5a-46b4ca2b75da" />
+<img width="1916" height="935" alt="image" src="https://github.com/user-attachments/assets/6fd09f0a-e11e-43a3-a735-2d2c0dd3cc37" />
+<img width="1901" height="932" alt="image" src="https://github.com/user-attachments/assets/90f33ba6-9b0e-4e58-876e-eec62c3deb86" />
 
 ### 2. Halaman Masuk (`login.html`)
 <img width="1913" height="960" alt="Halaman Login" src="https://github.com/user-attachments/assets/ff7ebea5-5fb9-432a-977a-00821b543db3" />
@@ -61,7 +62,10 @@
 <img width="1912" height="962" alt="Halaman Detail Artikel" src="https://github.com/user-attachments/assets/3de0211f-54e3-4f96-8da3-4ac846a05c16" />
 
 ### 5. Halaman Bookmark (`bookmark.html`)
-<img width="1915" height="967" alt="Halaman Bookmark" src="https://github.com/user-attachments/assets/155f1b7a-7d56-4072-814b-4ec3d4fdcf5f" />
+<img width="1896" height="935" alt="image" src="https://github.com/user-attachments/assets/c53afa1f-4d12-4718-a151-827641257a0e" />
+<img width="1895" height="932" alt="image" src="https://github.com/user-attachments/assets/89ee0d84-d099-435c-803b-856a1fa1ac60" />
+<img width="1900" height="927" alt="image" src="https://github.com/user-attachments/assets/e1e5d3f7-3635-4723-8640-9b20e0ad5714" />
+
 
 ### 6. Halaman Pengaturan (`settings.html`)
 <img width="1910" height="961" alt="Halaman Settings" src="https://github.com/user-attachments/assets/e2ffec70-cdd9-497d-96a4-4abdea71513b" />
