@@ -1,0 +1,36 @@
+{
+        "saved-articles" : [
+            {
+                "images": "https://example.com/image1.jpg", 
+                "title": "Tips Hidup Sehat Mahasiswa Telkom University",
+                "author": "Rifky Muhammad Prayudhi",
+                "date": "13 Oktober 2026",
+                "description": "Sebagai mahasiswa, menjaga kesehatan sangat penting. Artikel ini memberikan tips hidup sehat bagi mahasiswa Telkom University.",
+                "tags": ["lifestyle", "health", "student-life"],
+                "reading-time": "10 min"
+            }
+        ],
+        "saved-places": [
+            {
+                "images": "https://example.com/image1.jpg", 
+                "title": "Ayam Dikichi",
+                "author": "Zulfan Falah Permana",
+                "date": "10 Oktober 2026",
+                "location": "Sukapura, Telkom University, Indonesia",
+                "description": "Ayam goreng enak dan murah deket Telkom University",
+                "category": "Food and Beverage",
+                "price-range": "Rp 10.000 - Rp 50.000"
+            }
+        ],
+        "saved-discussions": [
+            {
+                "images": "https://example.com/image1.jpg", 
+                "title":"Cara Memberantas Buzzer Telkom University",
+                "author":"Zulfan Falah Permana",
+                "date":"10 Oktober 2026",
+                "description":"Cara efektif untuk mengatasi masalah buzzer di lingkungan Telkom University",
+                "community-name" : "Telkom University Politics Community",
+                "comunity-author" : "Zulfan Falah Permana"
+            }
+        ]
+}
