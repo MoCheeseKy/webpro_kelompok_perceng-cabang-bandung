@@ -78,5 +78,9 @@
    ```bash
    git clone <URL_REPOSITORY>
    ```
-2. Buka folder proyek di file explorer atau text editor (VS Code).
-3. Buka file `index.html` langsung di browser atau gunakan ekstensi **Live Server** di VS Code.
+2. Buka folder proyek di file explorer atau text editor (VS Code), lalu jalankan JSON Server dari root proyek:
+   ```bash
+   npx json-server datas.json --port 3000
+   ```
+   Data beranda tersedia melalui endpoint `/articles`, `/places`, dan `/discussions` di `http://localhost:3000`.
+3. Buka file `pages/index.html` menggunakan ekstensi **Live Server** di VS Code agar request AJAX berjalan dengan benar.

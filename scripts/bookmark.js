@@ -62,7 +62,7 @@ $(document).ready(function () {
         console.error('Gagal mengambil data bookmark:', error);
 
         const errorHtml = BookmarkTemplates.errorMessage(
-          'Tidak dapat terhubung ke JSON-Server (http://localhost:3000). Silakan jalankan `npx json-server --watch datas.json`.'
+          'Tidak dapat terhubung ke JSON-Server (http://localhost:3000). Silakan jalankan `npx json-server datas.json --port 3000`.'
         );
 
         $articleContainer.html(errorHtml);

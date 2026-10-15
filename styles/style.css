@@ -710,6 +710,22 @@ form fieldset button a {
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 
+.content-state {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 24px;
+  color: var(--teks-redup);
+  text-align: center;
+  background: var(--kartu);
+  border: 1px dashed var(--abu);
+  border-radius: var(--radius);
+}
+
+.content-state-error {
+  color: var(--merah);
+  background: #fde8ec;
+}
+
 .card {
   display: flex;
   flex-direction: column;

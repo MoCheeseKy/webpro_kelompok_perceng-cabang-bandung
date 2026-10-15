@@ -45,7 +45,7 @@
           <h2 id="tempat-populer">Tempat Populer Minggu Ini</h2>
           <a href="tempat.html">Lihat semua tempat</a>
         </div>
-        <div class="grid grid-2">
+        <div id="place-list" class="grid grid-2" aria-live="polite" aria-busy="true">
           <article class="card place-card">
             <div class="card-media">
               <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&auto=format&fit=crop&q=80"
@@ -112,7 +112,7 @@
         </div>
 
 
-        <div class="grid grid-3">
+        <div id="article-list" class="grid grid-3" aria-live="polite" aria-busy="true">
           <article class="card article-card">
             <div class="card-media">
               <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80"
@@ -186,7 +186,7 @@
           <h2 id="diskusi-terbaru">Diskusi Terbaru</h2>
           <a href="komunitas.html">Buka komunitas</a>
         </div>
-        <div class="grid grid-3">
+        <div id="discussion-list" class="grid grid-3" aria-live="polite" aria-busy="true">
           <article class="card discussion-card">
             <div class="card-media">
               <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80"
@@ -256,6 +256,10 @@
       <p>Data pada halaman ini hanya contoh (dummy).</p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../scripts/api.js"></script>
+  <script src="../scripts/index-templates.js"></script>
+  <script src="../scripts/index.js"></script>
 </body>
 
 </html>

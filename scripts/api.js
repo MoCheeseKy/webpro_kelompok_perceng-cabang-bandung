@@ -5,6 +5,21 @@
 
 const API_BASE_URL = 'http://localhost:3000';
 
+const ContentAPI = {
+  /**
+   * Mengambil koleksi konten dari JSON Server.
+   * @param {string} endpoint - 'articles', 'places', atau 'discussions'
+   * @returns {jqXHR}
+   */
+  getCollection(endpoint) {
+    return $.ajax({
+      url: `${API_BASE_URL}/${endpoint}`,
+      method: 'GET',
+      dataType: 'json'
+    });
+  }
+};
+
 const BookmarkAPI = {
   /**
    * Mengambil data bookmark berdasarkan endpoint
